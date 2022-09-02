@@ -1,0 +1,24 @@
+name: cell_synthesis
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pytorch
+dependencies:
+  - python=3.9.13
+  - cudatoolkit=11.3
+  - imgaug=0.4.0
+  - matplotlib=3.5.2
+  - numpy=1.23.1
+  - pytorch=1.12.0
+  - scikit-image=0.19.3
+  - scipy=1.9.0
+  - tensorboard=2.9.0
+  - tifffile=2022.7.31
+  - torchvision=0.13.0
+  - pip
+  - pip:
+    - hiddenlayer==0.3
+    - hjson==3.0.2
+    - pynrrd==0.4.3
+    - torchsummary==1.5.1
